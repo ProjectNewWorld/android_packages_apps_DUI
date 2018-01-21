@@ -1,5 +1,6 @@
 /**
  * Copyright (C) 2016 The DirtyUnicorns Project
+ * Copyright (C) 2018 Project New World
  *
  * @author: Randall Rushing <randall.rushing@gmail.com>
  *
@@ -47,9 +48,9 @@ import android.widget.Toast;
 public abstract class BaseEditor implements Editor {
 
     public static final String INTENT_ACTION_EDIT_CLASS = "com.android.settings";
-    public static final String INTENT_ACTION_EDIT_COMPONENT = "com.dirtyunicorns.tweaks.ActionPickerDialogActivity";
-    public static final String INTENT_ACTION_ICON_PICKER_COMPONENT = "com.dirtyunicorns.tweaks.IconPickerActivity";
-    public static final String INTENT_ACTION_GALLERY_PICKER_COMPONENT = "com.dirtyunicorns.tweaks.IconPickerGallery";
+    public static final String INTENT_ACTION_EDIT_COMPONENT = "com.pnw.settings.ActionPickerDialogActivity";
+    public static final String INTENT_ACTION_ICON_PICKER_COMPONENT = "com.pnw.settings.IconPickerActivity";
+    public static final String INTENT_ACTION_GALLERY_PICKER_COMPONENT = "com.pnw.settings.IconPickerGallery";
     public static final String INTENT_ICON_PICKER = "intent_icon_picker";
     public static final String INTENT_GALLERY_PICKER = "intent_gallery_picker";
     public static final String INTENT_ACTION_PICKER = "intent_action_action_picker";
